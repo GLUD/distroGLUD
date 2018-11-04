@@ -4,11 +4,12 @@
 # Cambiar la imagen del Grub
 
 echo "Url, imagen jpg o png (640x480)"
-read imagen
+#read imagen
+imagen="https://raw.githubusercontent.com/grupo-glud/Logo-GLUD/master/kokopelli-fondo-negro.png"
 
-cd /boot/grub	
+cd /boot/grub
 
-sudo wget $imagen
+sudo wget "${imagen}"
 
 cd /
 
