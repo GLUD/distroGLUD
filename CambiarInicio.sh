@@ -2,7 +2,7 @@
 
 echo "Ruta de la imagen  png (128x115)"
 #read imagen
-imagen="https://i.pinimg.com/564x/92/39/c2/9239c2ad970d637b3f8c582ee17cc002.jpg"
+imagen="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/NewTux.svg/300px-NewTux.svg.png"
 echo "!SE BORRARA EL LOGO QUE TENIA PARA EL INICIO"
 
 sudo -s
