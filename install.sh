@@ -4,8 +4,8 @@
 #./proxy.sh
 
 # Actualización del sistema
-sudo apt update
-sudo apt upgrade
+sudo apt -y update
+sudo apt -y upgrade
 
 # Cambio de la imagen del Grub
 ./grub.sh
@@ -18,3 +18,11 @@ sudo apt upgrade
 
 # Personalización del entorno gráfico
 ./editTheme.sh
+
+# Implementando script existente
+sudo apt install git
+cd 
+git clone https://github.com/GLUD/distroCustomization.git
+cd distroCustomization
+./instalar
+
