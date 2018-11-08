@@ -4,8 +4,8 @@
 #./proxy.sh
 
 # Actualización del sistema
-sudo apt -y update
-sudo apt -y upgrade
+sudo apt-get -y update
+sudo apt-get -y upgrade
 
 # Cambio de la imagen del Grub
 ./grub.sh
