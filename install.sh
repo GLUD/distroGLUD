@@ -15,3 +15,6 @@ sudo apt upgrade
 
 # Instalación de zsh para personalizar la terminal
 ./guia_zsh.sh
+
+# Personalización del entorno gráfico
+./editTheme.sh
