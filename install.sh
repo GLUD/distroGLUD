@@ -7,9 +7,6 @@
 sudo apt-get -y update
 sudo apt-get -y upgrade
 
-# Cambio de la imagen del Grub
-./grub.sh
-
 # Cambio de la imagen de inicio, que en Linux mint es lm
 ./CambiarInicio.sh
 
@@ -25,4 +22,7 @@ cd
 git clone https://github.com/GLUD/distroCustomization.git
 cd distroCustomization
 ./instalar
+
+# Cambio de la imagen del Grub
+./grub.sh
 
