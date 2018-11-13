@@ -36,4 +36,5 @@ gsettings set org.cinnamon.desktop.wm.preferences theme "Mint-Y-Dark"
 
 # -> Cambiar tema de escritorio
 
-gsettings set org.cinnamon.theme name "cinnamon"
+#gsettings set org.cinnamon.theme name "cinnamon"
+gsettings set org.cinnamon.theme name "CBlack-Dark"
