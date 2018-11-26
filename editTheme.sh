@@ -1,4 +1,3 @@
-#!/bin/bash
 # Bash script for change Desktop Theme, by Andres Bayuelo
 
 # -> Cambiar fondo escritorio
@@ -38,3 +37,13 @@ gsettings set org.cinnamon.desktop.wm.preferences theme "Mint-Y-Dark"
 
 #gsettings set org.cinnamon.theme name "cinnamon"
 gsettings set org.cinnamon.theme name "CBlack-Dark"
+
+# -> Cambiar de posición la barra de tareas
+
+gsettings set org.cinnamon panels-enabled "['1:0:top']"
+
+# -> Cambiar icono y texto de menu inicio
+
+sudo mv /usr/share/cinnamon/theme/menu.svg /usr/share/cinnamon/theme/menu.svg_original
+sudo cp mint.svg /usr/share/cinnamon/theme/
+sudo mv /usr/share/cinnamon/theme/mint.svg /usr/share/cinnamon/theme/menu.svg
