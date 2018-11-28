@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=GLUD Logo
+Description=A theme that features a blank background with a logo (fork of the theme Mint Logo).
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/glud-logo
+ScriptFile=/usr/share/plymouth/themes/glud-logo/glud-logo.script
