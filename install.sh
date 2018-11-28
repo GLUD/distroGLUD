@@ -22,8 +22,12 @@ echo "~~> Cambio de la imagen del Grub"
 ./grub.sh
 
 # Cambio de la imagen de inicio, que en Linux mint es lm
-echo "~~> Cambio imagen de incio"
+echo "~~> Cambio imagen de inicio"
 ./CambiarInicio.sh
+
+# Instalar programas
+echo "~~> Instalación de programas"
+./instalar
 
 # Implementando script existente
 #sudo apt-get install git
@@ -31,5 +35,5 @@ echo "~~> distroCustomization"
 cd ~
 git clone https://github.com/GLUD/distroCustomization.git
 cd distroCustomization
-./instalar
+
 

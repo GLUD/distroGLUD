@@ -8,7 +8,7 @@
 cp zshrc ~
 cd ~
 
-# intalar git
+# instalar git
 sudo apt-get install git
 
 # instalar zsh
