@@ -242,6 +242,7 @@ function vagrant {
 	sudo apt-get install vagrant -y; 
 }
 function vlc {
+	sudo apt install snapd -y;
 	sudo snap install vlc #-y;
 	vlc;
 	echo"SE HA INSTALADO VLC"
