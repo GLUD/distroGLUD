@@ -5,7 +5,7 @@
 
 echo "Url, imagen jpg o png (640x480)"
 #read imagen
-imagen="https://raw.githubusercontent.com/grupo-glud/Logo-GLUD/master/kokopelli-fondo-negro.png"
+imagen="https://raw.githubusercontent.com/GLUD/distroGLUD/master/Graficos/grub.png"
 
 cd /boot/grub
 
