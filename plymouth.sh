@@ -14,7 +14,7 @@ PLYMOUTH_DIR="/usr/share/plymouth/themes"
 PLYMOUTH_THEME="$PLYMOUTH_DIR/$THEME/$THEME.plymouth"
 
 if [ $(id -u) -eq 0 ]; then
-    if [ -e $THEME ]; then
+    if [ -d $THEME ]; then
         cp -rf "./$THEME" $PLYMOUTH_DIR
         update-alternatives --install "$PLYMOUTH_DIR/default.plymouth" default.plymouth $PLYMOUTH_THEME 200 > /dev/null
         update-alternatives --set default.plymouth $PLYMOUTH_THEME > /dev/null
