@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Script que mueve "cada dia" todas las descargas del directorio 'Descargas' a una carpeta
-# nueva nombrada con la fecha de ejecución del sistema.
+# Script que mueve todos los archivos del directorio 'Descargas' del dia anterior a una carpeta
+# nueva nombrada con la fecha del dia anterior del sistema.
 
 # TODO: Integrar con crontab
 
-DATE=$(date +%d_%m_%y)
+DATE=$(date --date="yesterday" +%d_%m_%y)
 FOLDER="/home/$USER/Descargas"
 DIR="$FOLDER/Descargas_$DATE"
 

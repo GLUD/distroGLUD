@@ -29,11 +29,13 @@ if [ -e $ZENITY_DIR ]; then
 
 elif [ -e $NOTIFY_SEND_DIR ]; then
     notify-send -u critical "¡Apagado!" \
-        "¡Guarde su trabajo, el computador se apagará en $COUNTDOWN minutos!\nPara cancelar: <b>shutdown -c</b>"
+        "¡Guarde su trabajo, el computador se apagará en $COUNTDOWN minutos!\nPara cancelar: <b>shutdown -c</b>" \
+        2>/dev/null
 else
     # No acepta tildes
     echo -e "Guarde su trabajo, el computador se apagara en $COUNTDOWN minutos\nEsta seguro de que quiere continuar?" \
-        | xmessage -center -buttons Cancelar:1,Si:0 -file -
+        | xmessage -center -buttons Cancelar:1,Si:0 -file - \
+        2>/dev/null
 fi
 
 if [ $? == 1 ]; then
