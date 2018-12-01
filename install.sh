@@ -11,7 +11,7 @@ sudo apt-get -y upgrade
 
 # Instalación de zsh para personalizar la terminal
 echo "~~> Instalación de zsh"
-./install_zsh.sh
+./zsh/install.sh
 
 # Personalización del entorno gráfico
 echo "~~> editTheme.sh"

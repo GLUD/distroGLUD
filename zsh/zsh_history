@@ -1,0 +1,311 @@
+: 1540878197:0;chsh -s $(which zsh)
+: 1540878484:0;chsh -s `which zsh`
+: 1540903064:0;sudo apt-get install fonts-powerline
+: 1540903355:0;git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+: 1540903379:0;cd ..
+: 1540903387:0;ls
+: 1540905380:0;cd Dropbox
+: 1540905389:0;cd currentUniversityWork
+: 1540905391:0;ls
+: 1540905395:0;cd modelosProgramacion2
+: 1540905397:0;ls
+: 1540905401:0;cd code
+: 1540905405:0;ls
+: 1540905413:0;cd laberinto
+: 1540905420:0;gis status
+: 1540905430:0;git status
+: 1540905535:0;cd Dropbox
+: 1540905536:0;ls
+: 1540905543:0;cd currentUniversityWork
+: 1540905545:0;ls
+: 1540905548:0;cd modelosProgramacion2
+: 1540905549:0;ls
+: 1540905552:0;cd code
+: 1540905553:0;ls
+: 1540905556:0;cd laberinto
+: 1540906841:0;git clone https://github.com/powerline/fonts.git --depth=1
+: 1540907439:0;cd fonts
+: 1540907459:0;./install.sh
+: 1540907570:0;cd ..
+: 1540907582:0;rm -rf fonts
+: 1540913667:0;cd Dropbox
+: 1540913670:0;ls
+: 1540913673:0;cd currentUniversityWork
+: 1540913676:0;cd modelosProgramacion2
+: 1540913677:0;ls
+: 1540913682:0;cd code
+: 1540913684:0;cd laberinto
+: 1540913823:0;cd ..
+: 1540914539:0;ls
+: 1540914564:0;git clone https://github.com/powerline/fonts.git --depth=1
+: 1540914583:0;cd fonts
+: 1540914599:0;./install.sh
+: 1540914616:0;./uninstall.sh
+: 1540914637:0;sudo ./uninstall.sh
+: 1540914650:0;bash uninstall.sh
+: 1540914764:0;cd fonts
+: 1540914850:0;./install.sh
+: 1540914993:0;rm -rf fonts
+: 1540915141:0;cd Dropbox
+: 1540915426:0;cd currentUniversityWork
+: 1540915428:0;ls
+: 1540915430:0;cd modelosProgramacion2
+: 1540915431:0;ls
+: 1540915433:0;cd code
+: 1540915439:0;cd laberinto
+: 1540918309:0;cd Dropbox
+: 1540918312:0;cd currentUniversityWork
+: 1540918316:0;cd modelosProgramacion2
+: 1540918324:0;ls
+: 1540918328:0;cd code
+: 1540918329:0;ls
+: 1540918335:0;cd laberinto
+: 1540919881:0;ls
+: 1540993250:0;cd Documentos
+: 1540993267:0;bash script.sh
+: 1541003042:0;wget "$(grep "img src=" index.html | grep "/comics/"| cut -d\" -f2 | cut -c 3-)" -O wallpaper
+: 1541003406:0;bash script.sh
+: 1541006374:0;cd Descargas/
+: 1541006726:0;cd ..
+: 1541006759:0;cd Documentos
+: 1541006774:0;bash script.sh
+: 1541006880:0;cd Documentos
+: 1541006882:0;bash script.sh
+: 1541008279:0;gsettings set org.cinnamon.desktop.interface cursor-theme "DMZ-White"
+: 1541008419:0;gsettings set org.cinnamon.desktop.interface cursor-theme "DMZ-Black"
+: 1541008483:0;gsettings set org.cinnamon.desktop.interface cursor-theme "DMZ-White"
+: 1541008488:0;gsettings set org.cinnamon.desktop.interface cursor-theme "DMZ-Black"
+: 1541008848:0;gsettings set org.cinnamon.desktop.wm.preferences theme "Mint-Y-Dark"
+: 1541008941:0;gsettings get org.cinammon.desktop.wm.preferences theme
+: 1541008971:0;gsettings get org.cinnamon.desktop
+: 1541008982:0;gsettings get org.cinnamon.desktop.wm.preferences
+: 1541008988:0;gsettings get org.cinnamon.desktop.wm.preferences theme
+: 1541009070:0;gsettings set org.cinnamon.desktop.wm.preferences theme "Mint-Y-Dark"
+: 1541009077:0;gsettings get org.cinnamon.desktop.wm.preferences theme
+: 1541009186:0;gsettings set org.cinnamon.desktop.wm.preferences theme 'Mint-Y-Dark'
+: 1541009191:0;gsettings get org.cinnamon.desktop.wm.preferences theme
+: 1541009242:0;gsettings get org.cinnamon.desktop.wm.preferences theme-backup
+: 1541009313:0;gsettings set org.cinnamon.desktop.wm.preferences theme 'Adwaita'
+: 1541009329:0;gsettings set org.cinnamon.desktop.wm.preferences theme ''
+: 1541009388:0;gsettings set org.cinnamon.desktop.wm.preferences theme 'Adapta-Nokto'
+: 1541009430:0;gsettings get org.cinnamon.desktop.wm.preferences theme
+: 1541009560:0;cd Dropbox
+: 1541009572:0;cd currentUniversityWork
+: 1541009579:0;cd modelosProgramacion2
+: 1541009585:0;cd code
+: 1541009588:0;cd laberinto
+: 1541010623:0;gsettings get org.cinnamon.desktop.wm.preferences theme
+: 1541010775:0;gsettings get org.cinnamon.desktop.interface gtk-theme
+: 1541010873:0;gsettings set org.cinnamon.desktop.interface gtk-theme "Mint-Y-Dark"
+: 1541011044:0;gsettings get org.cinnamon.desktop.interface icon-theme 
+: 1541011239:0;gsettings set org.cinnamon.desktop.interface icon-theme "Mint-Y"
+: 1541011254:0;gsettings set org.cinnamon.desktop.interface icon-theme "Mint-Y-Grey"
+: 1541011632:0;gsettings get org.cinnamon.desktop.interface toolbar-style
+: 1541465503:0;cd Aplicaciones
+: 1541465505:0;ls
+: 1541465511:0;cd PopcornTime
+: 1541465515:0;ls
+: 1541465526:0;./Popcorn-Time
+: 1541465611:0;cd Aplicaciones
+: 1541465615:0;cd PopcornTime
+: 1541465622:0;./Popcorn-Time
+: 1541611486:0;sudo add-apt-repository ppa:papirus/papirus
+: 1541611522:0;sudo apt get update
+: 1541611538:0;sudo apt-get update
+: 1541611577:0;sudo apt-get install papirus-icon-theme
+: 1541612386:0;gsettings set org.cinnamon.desktop.interface icon-theme "Papirus-Dark"
+: 1541612936:0;gsettings get org.cinnamon.desktop.interface gtk-theme
+: 1541613000:0;gsettings get org.cinnamon.desktop.interface menubar-accel
+: 1541613033:0;gsettings get org.cinnamon.desktop.wm.preferences theme
+: 1541613086:0;gsettings get org.cinnamon.desktop.wm.preferences theme "Adapta.Nokto"
+: 1541613094:0;gsettings get org.cinnamon.desktop.wm.preferences theme "Adapta-Nokto"
+: 1541613104:0;gsettings set org.cinnamon.desktop.wm.preferences theme "Adapta-Nokto"
+: 1541613404:0;gsettings get org.cinnamon.theme name 
+: 1541613433:0;gsettings set org.cinnamon.theme name "Adapta-Nokto" 
+: 1541614793:0;ls
+: 1541614797:0;cd ..
+: 1541614800:0;ls
+: 1541614805:0;ls -all
+: 1541614820:0;cd .icons
+: 1541614821:0;ls
+: 1541614825:0;cd default
+: 1541614826:0;ls
+: 1541614830:0;cd ..
+: 1541614835:0;cd .themes
+: 1541614837:0;ls
+: 1541614840:0;cd ..
+: 1541615084:0;sudo add-apt-repository --remove ppa:papirus/papirus
+: 1541615109:0;sudo apt-get update
+: 1541615308:0;screenfetch
+: 1541615312:0;screen
+: 1541720282:0;ls
+: 1541720288:0;cd Documentos
+: 1541720290:0;ls
+: 1541720377:0;./script-editTheme.sh
+: 1541720385:0;bash script-editTheme.sh
+: 1542313304:0;gsettings get org.cinnamon.desktop.interface menubar-accel
+: 1542313323:0;gsettings get org.cinnamon.desktop.interface menubar-detachable
+: 1542317645:0;gsettings get org.mate.panel.menubar icon-name
+: 1542318278:0;gsettings get org.mate.panel.menubar
+: 1542643693:0;gsettings get org.cinnamon
+: 1542643719:0;gsettings get org.cinnamon panel-edit-mode
+: 1542643745:0;gsettings get org.cinnamon panel-resizable
+: 1542643782:0;gsettings get org.cinnamon panels-height
+: 1542643906:0;gsettings get org.cinnamon panels-show-delay
+: 1542645161:0;clear
+: 1542645167:0;cd Aplicaciones
+: 1542645169:0;ls
+: 1542645172:0;cd PopcornTime
+: 1542645173:0;ls
+: 1542645179:0;./Popcorn-Time
+: 1542649910:0;gsettings get org.cinnamon panels-show-delay
+: 1542649979:0;gsettings get org.cinnamon
+: 1542652618:0;gsettings get org.mate.panel.menubar icon-name
+: 1542652644:0;gsettings get org.mate.panel.menubar show-places
+: 1542652974:0;gsettings get com.linuxmint.mintmenu applet-text
+: 1542652989:0;gsettings get com.linuxmint.mintmenu applet-icon
+: 1542653181:0;gsettings get com.linuxmint.mintmenu applet-text
+: 1542653227:0;gsettings set com.linuxmint.mintmenu applet-text "MenÃº"
+: 1542653233:0;gsettings set com.linuxmint.mintmenu applet-text ""
+: 1542653264:0;gsettings get com.linuxmint.mintmenu applet-text ""
+: 1542653269:0;gsettings get com.linuxmint.mintmenu applet-text 
+: 1542653513:0;gsettings set com.linuxmint.mintmenu applet-text "lll"
+: 1542653536:0;gsettings set com.linuxmint.mintmenu applet-text "Menu"
+: 1542653557:0;gsettings get com.linuxmint.mintmenu applet-icon
+: 1542653780:0;gsettings set com.linuxmint.mintmenu applet-icon '/home/user/Descargas/mint-leaf-icon.png'
+: 1542653816:0;cd /home/user/Descargas/
+: 1542653818:0;ls
+: 1542653832:0;gsettings get com.linuxmint.mintmenu applet-icon 
+: 1542654106:0;gsettings set com.linuxmint.mintmenu applet-icon '/usr/lib/linuxmint/mintMenu/mintMenu.png'
+: 1542654127:0;gsettings set com.linuxmint.mintmenu applet-text 'Menu'
+: 1542654131:0;gsettings get com.linuxmint.mintmenu applet-icon 
+: 1542654144:0;gsettings get com.linuxmint.mintmenu applet-text 
+: 1542654200:0;gsettings get
+: 1542654272:0;gsettings get com.linuxmint.desktop mate-window-manager
+: 1542654573:0;gsettings get com.linuxmint.mintmenu offset
+: 1542654591:0;gsettings get com.linuxmint.mintmenu theme-name
+: 1542654595:0;gsettings get com.linuxmint.mintmenu applet-text 
+: 1542654943:0;gsettings get org.cinnamon panel-edit-mode
+: 1542656380:0;gsettings set com.linuxmint.mintmenu applet-icon "/usr/lib/linuxmint/mintMenu/mintLeafIcon.png"
+: 1542656389:0;gsettings get com.linuxmint.mintmenu applet-icon
+: 1542656485:0;gsettings set com.linuxmint.mintmenu applet-icon "/usr/lib/linuxmint/mintMenu/mintMenu.png"
+: 1542656488:0;gsettings get com.linuxmint.mintmenu applet-icon
+: 1542656852:0;gsettings set com.linuxmint.mintmenu applet-icon "/usr/lib/linuxmint/mintMenu/mintMenu.png"
+: 1542656947:0;gsettings get com.linuxmint.mintmenu applet-icon
+: 1542657007:0;gsettings set com.linuxmint.mintmenu applet-icon "/usr/lib/linuxmint/mintMenu/mintMenu.png"
+: 1542683468:0;gsettings set com.linuxmint.mintmenu applet-icon "/home/user/Descargas/mint-leaf-icon.png"
+: 1542683835:0;gsettings set com.linuxmint.mintmenu applet-icon "/usr/lib/linuxmint/mintMenu/mintMenu.png"
+: 1542684090:0;gsettings get com.linuxmint.mintmenu applet-icon 
+: 1542684310:0;gsettings get com.linuxmint.mintmenu applet-text 
+: 1542684341:0;gsettings get org.cinnamon startup-animation
+: 1542684532:0;gsettings get org.cinnamon.desktop.interface menubar-accel
+: 1542724794:0;gsettings get org.cinnamon desktop-layout
+: 1542725192:0;gsettings get org.cinnamon panels-height
+: 1542725219:0;gsettings get org.cinnamon panels-show-delay
+: 1542725331:0;gsettings get org.cinnamon.desktop.session session-name
+: 1542725502:0;gsettings get org.cinnamon.desklets.launcher launcher-list
+: 1542726001:0;gsettings get org.mate.panel.menubar icon-name
+: 1542726060:0;gsettings get org.mate.panel default-layout
+: 1542726094:0;gsettings get org.mate.panel.menubar show-icon
+: 1542726098:0;gsettings get org.mate.panel.menubar show-places
+: 1542726519:0;gsettings get org.cinnamon.desktop.default-applications
+: 1542728110:0;gsettings get org.cinnamon cinnamon-settings-advanced
+: 1542728119:0;gsettings get org.cinnamon 
+: 1542728168:0;gsettings get org.cinnamon panel-launchers
+: 1542728178:0;gsettings get org.cinnamon panel-edit-mode
+: 1542728261:0;gsettings get org.cinnamon panel-resizable
+: 1542728297:0;gsettings get org.cinnamon panel-scale-text-icons
+: 1542728389:0;gsettings get org.cinnamon cinnamon-settings-advanced
+: 1542728400:0;gsettings set org.cinnamon cinnamon-settings-advanced true
+: 1542728403:0;gsettings get org.cinnamon cinnamon-settings-advanced
+: 1542728420:0;gsettings get org.cinnamon panel-edit-mode
+: 1542728433:0;gsettings set org.cinnamon cinnamon-settings-advanced false
+: 1542728440:0;gsettings get org.cinnamon cinnamon-settings-advanced
+: 1542729755:0;gsettings get org.mate.panel.menubar icon-name
+: 1542729783:0;gsettings get org.mate.panel default-layout
+: 1542729812:0;gsettings get org.mate.panel show-program-list
+: 1542744981:0;gsettings get org.cinnamon panel-top-height 25
+: 1542745280:0;mate-panel
+: 1542764060:0;gsettings get org.cinnamon panels-autohide
+: 1542764122:0;gsettings get org.cinnamon panels-height
+: 1542764197:0;gsettings get org.cinnamon panels-enabled
+: 1542764256:0;gsettings set org.cinnamon panels-enabled ['1:0:bottom']
+: 1542764270:0;gsettings set org.cinnamon panels-enabled '1:0:bottom'
+: 1542764278:0;gsettings set org.cinnamon panels-enabled 'bottom'
+: 1542764289:0;gsettings get org.cinnamon panels-enabled 
+: 1542764450:0;gsettings set org.cinnamon panels-enabled "['1:0:bottom']"
+: 1542764459:0;gsettings set org.cinnamon panels-enabled "['1:0:top']"
+: 1542764750:0;gsettings get org.cinnamon panel-launchers
+: 1542764758:0;gsettings get org.cinnamon panel-launchers-draggable
+: 1542764870:0;gsettings get com.linuxmint.mintmenu applet-icon
+: 1542764894:0;gsettings get com.linuxmint.mintmenu offset
+: 1542764917:0;gsettings get com.linuxmint.mintmenu applet-icon-size
+: 1542765076:0;gsettings get com.linuxmint.mintmenu hide-applet-icon
+: 1542765087:0;gsettings set com.linuxmint.mintmenu hide-applet-icon true
+: 1542765100:0;gsettings set com.linuxmint.mintmenu hide-applet-icon false
+: 1542765159:0;gsettings get com.linuxmint.mintmenu applet-icon
+: 1542767053:0;gsettings get org.cinnamon.desklets.launcher launcher-list
+: 1542767462:0;cinnamon-settings
+: 1542767487:0;cinnamon-menu-editor
+: 1542767671:0;cinnamon-settings
+: 1542767745:0;gsettings get com.linuxmint.mintmenu applet-icon
+: 1542768345:0;gsettings get org.cinnamon panels-scale-text-icons
+: 1542768379:0;gsettings get org.cinnamon panel-scale-text-icons
+: 1542768422:0;gsettings set org.cinnamon panel-scale-text-icons false
+: 1542768439:0;gsettings set org.cinnamon panel-scale-text-icons true
+: 1542768465:0;gsettings get org.cinnamon panels-scale-text-icons "['1:false']"
+: 1542768472:0;gsettings set org.cinnamon panels-scale-text-icons "['1:false']"
+: 1542768487:0;gsettings set org.cinnamon panels-scale-text-icons "['1:true']"
+: 1542816505:0;gsettings get com.linuxmint.mintmenu.plugins.applications icon
+: 1542816642:0;gsettings get org.
+: 1542816666:0;gsettings get org.cinnamon panel-launchers
+: 1542816782:0;gsettings get org.cinnamon desktop-effects-on-menus
+: 1542816804:0;gsettings get org.cinnamon.theme name
+: 1542817500:0;gsettings get org.cinnamon.desktop.default-applications
+: 1542817533:0;gsettings get org.cinnamon.desktop.session session-name
+: 1542817802:0;cinnamon-menu-editor
+: 1542818510:0;gsettings get com.linuxmint.mintmenu applet-text
+: 1542818529:0;gsettings set com.linuxmint.mintmenu applet-text "M"
+: 1542818598:0;gsettings set com.linuxmint.mintmenu applet-text "Menu"
+: 1542836939:0;cinnamon --replace
+: 1542837683:0;su
+: 1542837792:0;sudo mv /usr/share/cinnamon/applets/menu@cinnamon.org/settings-schema.json /usr/share/cinnamon/applets/menu@cinnamon.org/settings-schema_backup.json
+: 1542837973:0;journalctl -f
+: 1542838182:0;cd Descargas
+: 1542838183:0;ls
+: 1542838190:0;cd ..
+: 1542838192:0;cd Documentos
+: 1542838194:0;cd customCinnamon
+: 1542838196:0;ls
+: 1542838211:0;sudo cp settings-schema.json /usr/share/cinnamon/applets/menu@cinnamon.org/
+: 1543246473:0;sudo mv /usr/share/cinnamon/theme/menu.svg /usr/share/cinnamon/theme/menu.svg_original
+: 1543246521:0;sudo cp mint.svg /usr/share/cinnamon/theme/menu.svg
+: 1543246607:0;sudo mv /usr/share/cinnamon/theme/mint.svg /usr/share/cinnamon/theme/menu.svg
+: 1543247152:0;cd ~
+: 1543252173:0;sudo cp zshrc ~/
+: 1543252200:0;cd Documentos/
+: 1543252204:0;cd customCinnamon
+: 1543252222:0;sudo cp zshrc ~
+: 1543252275:0;rm ~/zshrc
+: 1543519828:0;echo "Prueba" >>  .zshrc 
+: 1543523281:0;sudo apt-get remove opera
+: 1543523325:0;sudo apt autoremove
+: 1543524159:0;sudo add-apt-repository --list
+: 1543524163:0;sudo add-apt-repository list
+: 1543524214:0;sudo apt-get update
+: 1543591494:0;flatpak uninstall â€ƒ³ â€ƒ³ delete-data
+: 1543591499:0;flatpak uninstall â€ƒ³â€ƒ³delete-data
+: 1543591616:0;flatpak uninstall 
+: 1543591634:0;flatpak list
+: 1543620526:0;cd Documentos
+: 1543620527:0;ls
+: 1543620534:0;cd customCinnamon
+: 1543620536:0;ls
+: 1543620589:0;git clone https://github.com/GLUD/distroGLUD.git
+: 1543620710:0;cd distroGLUD
+: 1543620711:0;ls
+: 1543620734:0;git status
+: 1543620804:0;git mv install_zsh.sh zsh/install.sh
+: 1543620811:0;git status
+: 1543621065:0;git mv zshrc zsh/zshrc
+: 1543621069:0;git status
