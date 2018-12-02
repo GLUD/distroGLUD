@@ -31,16 +31,18 @@ echo "~~> Cambio imagen de inicio"
 ./plymouth.sh
 
 # Instalación del cron job apagado.sh
+echo "~~> Instalación del cron job apagado.sh"
 cp apagado.sh $MAIN_DIR
 ./cron.sh -u $SUDO_USER -n Apagado "0 22 * * *  $MAIN_DIR/apagado.sh"
 
 # Instalación del cron job descargas.sh
+echo "~~> Instalación del cron job descargas.sh"
 cp descargas.sh $MAIN_DIR
 ./cron.sh -u $SUDO_USER -n Descargas "@reboot     $MAIN_DIR/descargas.sh"
 
 # Instalar programas
 echo "~~> Instalación de programas"
-./instalar
+./programas2.sh
 
 # Implementando script existente
 #sudo apt-get install git
