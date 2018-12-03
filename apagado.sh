@@ -8,8 +8,6 @@
 # Para cancelar el apagado:
 # $ shutdown -c
 
-# TODO: Integrar con crontab
-
 COUNTDOWN=5
 
 ZENITY_DIR="/usr/bin/zenity"
