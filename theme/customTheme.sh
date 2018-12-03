@@ -3,9 +3,11 @@
 # -> Cambiar fondo escritorio
 # https://www.linuxjournal.com/content/create-dynamic-wallpaper-bash-script
 
-wget raw.githubusercontent.com/GLUD/Logo-GLUD/0e1a356f9f59296f8244988e6f7408f172852996/kokopelli-fondo-negro.png -O wallpaper.png
+# wget raw.githubusercontent.com/GLUD/Logo-GLUD/0e1a356f9f59296f8244988e6f7408f172852996/kokopelli-fondo-negro.png -O wallpaper.png
 
-gsettings set org.cinnamon.desktop.background picture-uri "file:///home/user/Documentos/wallpaper.png"
+cp theme/img/wallpaper.png ~/Imágenes/wallpaper.png
+
+gsettings set org.cinnamon.desktop.background picture-uri "file:///home/user/Imágenes/wallpaper.png"
 gsettings set org.cinnamon.desktop.background picture-options scaled
 
 # -> Cambiar tema del puntero del raton
@@ -45,5 +47,9 @@ gsettings set org.cinnamon panels-enabled "['1:0:top']"
 # -> Cambiar icono y texto de menu inicio
 
 sudo mv /usr/share/cinnamon/theme/menu.svg /usr/share/cinnamon/theme/menu.svg_original
-sudo cp mint.svg /usr/share/cinnamon/theme/
-sudo mv /usr/share/cinnamon/theme/mint.svg /usr/share/cinnamon/theme/menu.svg
+sudo cp theme/img/menu.svg /usr/share/cinnamon/theme/
+
+# -> Cambiar imagen de login 
+sudo mv /usr/share/backgrounds/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint/default_background.jpg_original
+sudo cp theme/img/wallpaper.png /usr/share/backgrounds/linuxmint/default_background.jpg
+

@@ -14,8 +14,8 @@ echo "~~> Instalación de zsh"
 ./zsh/install.sh
 
 # Personalización del entorno gráfico
-echo "~~> editTheme.sh"
-./editTheme.sh
+echo "~~> customTheme.sh"
+./theme/customTheme.sh
 
 # Cambio de la imagen del Grub
 echo "~~> Cambio de la imagen del Grub"
