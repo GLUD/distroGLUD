@@ -8,7 +8,7 @@ echo -e "1 Blender\n2 Netbeans IDE\n3 JAVA\n4 Geany\n5 Gimp\n6 Dia\n7 WxMaxima\n
 function salir {
 	exit
 }
-function atom {
+function atoms {
 	sudo add-apt-repository -y ppa:webupd8team/atom;
 	sudo apt-get update;
 	sudo apt-get install atom -y;
@@ -16,13 +16,13 @@ function atom {
 	atom;
 	#sleep 5s;
 }
-function blender {
+function blenders {
 	sudo apt-get install blender -y;
 	echo "SE HA INSTALADO BLENDER"
 	blender;
 	#sleep 5s;
 }
-function docker {
+function dockers {
 	sudo apt-get remove docker docker-engine docker.io;
 	sudo apt-get update;
 	sudo apt-get install apt-transport-https ca-certificates curl software-properties-common -y;
@@ -36,13 +36,13 @@ function docker {
 	echo "SE INSTALO DOCKER"
 	#sleep 2s;
 }
-function filezilla {
+function filezillas {
 	sudo apt-get install filezilla -y;
 	filezilla;
 	echo "SE HA INSTALADO FILEZILLA"
 	#sleep 5s;
 }
-function geany {
+function geanys {
 	sudo add-apt-repository ppa:geany-dev/ppa -y;
 	sudo apt update;
 	sudo apt install geany geany-common -y;
@@ -50,7 +50,7 @@ function geany {
 	geany;
 	#sleep 5s;
 }
-function gimp {
+function gimps {
 	sudo apt-get update;
 	sudo apt-get install -y gimp;
 	sudo mv ~/.gimp-2.8 ~/.gimp-2.8.old;
@@ -60,7 +60,7 @@ function gimp {
 	echo "SE HA INSTALADO GIMP"
 	#sleep 5s;
 }
-function java {
+function javas {
 	sudo add-apt-repository -y ppa:webupd8team/java;
 	sudo apt-get update;
 	sudo apt-get install oracle-java8-set-default -y;
@@ -68,7 +68,7 @@ function java {
 	echo "SE HA INSTALDO JAVA"
 	#sleep 2s;
 }
-function psql {
+function psqls {
 	sudo apt-get install postgresql postgresql-contrib -y;
 	sudo -u postgres psql postgres -y;
 	postgres=# \password postgres ;
@@ -78,31 +78,31 @@ function psql {
 	echo "SE HA INSTALDO POSTGRESQL CON PGADMIN 3"
 	#sleep 5s;
 }
-function virtualbox {
+function virtualboxs {
 	sudo apt-get install virtualbox -y;
 	virtualbox;
 	echo "SE HA INSTALADO VIRTUAL BOX"
 	#sleep 5s;
 }
-function eclipse {
+function eclipses {
 	echo "ECLIPSE IDE"
 	wget -c https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-09/R/eclipse-committers-2018-09-linux-gtk-x86_64.tar.gz&mirror_id=576;	
 	gzip -d ~/Descargas/eclipse-committers-2018-09-linux-gtk-x86_64.tar.gz; 
 	tar -xvf ~/Descargas/eclipse-committers-2018-09-linux-gtk-x86_64.tar; 
 	cd /eclipse/eclipse;
 }
-function android {
+function androids {
 	wget -c https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26/android-studio-ide-181.5014246-linux.zip;
 	sudo unzip android-studio-ide-181.5014246-linux.zip -d /opt;
 	cd /opt/android-studio/bin;
 	sh studio.sh;
 }
-function dia {
+function dias {
 	sudo apt update;
 	sudo apt install dia -y;
 	dia;
 }
-function eagle {
+function eagles {
 	wget -c https://www.autodesk.com/eagle-download-lin;
 	tar -xzvf Autodesk_EAGLE_9.2.2_English_Linux_64bit.tar.gz;
 	echo "Descomprimir el paquete eagle-download; no tiene extensión"
@@ -110,24 +110,24 @@ function eagle {
 	cd eagle-9.2.2/;
 	./eagle;
 }
-function ferret {
+function ferrets {
 	sudo apt-get update;
 	sudo apt-get install ferret -y;
 	echo "SE HA INSTALADO FERRET"
 	ferret;
 }
-function gretl {
+function gretls {
 	sudo apt-get install gretl -y;
 	sudo apt-get update ;
 	echo "SE HA INSTALADO GRETL"
 	gretl;
 }
-function gvsig {
+function gvsigs {
 	wget http://downloads.gvsig.org/download/gvsig-desktop-testing/dists/2.4.0/builds/2850/gvSIG-desktop-2.4.0-2850-final-lin-x86_64-standard.run;
 	chmod +x gvSIG-desktop-2.4.0-2850-final-lin-x86_64-standard.run;
 	./gvSIG-desktop-2.4.0-2850-final-lin-x86_64-standard.run;
 }
-function inkscape {
+function inkscapes {
 	sudo add-apt-repository ppa:inkscape.dev/stable -y;
 	sudo apt-get update;
 	sudo apt-cache policy inkscape;
@@ -135,20 +135,20 @@ function inkscape {
 	inkscape;
 	echo "INKSCAPE INSTALADO"
 }
-function kile {
+function kiles {
 	sudo apt-get install kile texlive-latex-recommended texlive-latex-extra preview-latex-style texlive-pictures -y;
 	sudo apt-get update;
 	echo"KILE INSTALADO"
 	kile;
 }
-function matlab {
+function matlabs {
 	wget -c http://ssd.mathworks.com/supportfiles/downloads/R2018b/deployment_files/R2018b/installers/glnxa64/MCR_R2018b_glnxa64_installer.zip;
 	unzip MCR_R2018b_glnxa64_installer.zip;
 	echo "SE SOLICITARÁ LA CONSTRASEÑA"
 	sudo ./install;
 	echo "INSTALADOR DE MATLAB"
 }
-function mono {
+function monos {
 	sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF;
 	echo "deb https://download.mono-project.com/repo/ubuntu stable-bionic main" | sudo tee /etc/apt/sources.list.d/mono-official-stable.list;
 	sudo apt update;
@@ -160,50 +160,51 @@ function mono {
 	sudo apt install mono-xsp4 -y;
 	mono;
 }
-function netbeans {
+function netbeanss {
 	wget -c http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-linux.sh;
 	chmod +x netbeans-8.2-linux.sh ;
 	./netbeans-8.2-linux.sh;
 	echo "INSTALADOR DE NETBEANS"
 }
-function nmap {
+function nmaps {
 	sudo apt-get install zenmap -y;
 	zenmap;
 }
-function octave {
+function octaves {
 	sudo apt-get install octave -y;
 	sudo apt update;
 	octave;
+	
 }
-function pcbdesigner {
+function pcbdesigners {
 	sudo apt-get install pcb-gtk  -y;
 	sudo apt update;
 	pcb;
 }
-function phpmyadmin {
+function phpmyadmins {
 	sudo apt-get update;
 	sudo apt-get install phpmyadmin -y;
 	echo"Se ha instaldo PHPMyAdmin; se recomienda el siguiente url para inciar su interfaz gráfica";
 	#https://maslinux.es/guia-facil-para-instalar-phpmyadmin-en-ubuntu/
 	echo"https://maslinux.es/guia-facil-para-instalar-phpmyadmin-en-ubuntu/"
 }
-function python {
+function pythons {
 	sudo update;
 	sudo apt-get install idle -y;
 	idle;
 }
-function qgis {
+function qgiss {
 	sudo apt-get update;
 	sudo apt-get install qgis python-matplotlib python-scipy -y;
 	echo "SE HA INSTALDO QGIS"
 	qgis;
 }
-function qt4 {
+function qt4s {
 	sudo apt-get update
 	sudo apt-get install qt4-default -y;
 	echo "SE INSTALO QT4-DEFAULT"
 }
-function qtcreator {
+function qtcreators {
 	sudo apt-get install build-essential -y;
 	sudo apt --fix-broken install -y;
 	sudo apt-get install qtcreator -y;
@@ -215,18 +216,18 @@ function qtcreator {
 	sudo apt-get install qtbase5-examples -y;
 	echo" QT INSTALADO"
 }
-function rstudio {
+function rstudios {
 	sudo apt-get install r-base -y;
 	wget https://download1.rstudio.org/rstudio-xenial-1.1.463-amd64.deb;
 	sudo dpkg -i rstudio*.deb;
 	echo "SE HA INTALADO R"
 }
-function scilab {
+function scilabs {
 	sudo apt-get install scilab -y;
 	sudo apt-get update;
 	echo "SE HA INSTALADO SCILAB"
 }
-function teamviewer {
+function teamviewers {
 	wget -c https://download.teamviewer.com/download/linux/teamviewer_amd64.deb;
 	sudo apt-get install qml-module-qtquick-controls -y;
 	sudo apt --fix-broken install -y;
@@ -236,23 +237,23 @@ function teamviewer {
 	sudo dpkg -i teamviewer*.deb;
 	apt-get install -f;
 }
-function vagrant {
+function vagrants {
 	sudo apt-get update;
 	sudo apt-get install virtualbox dkms -y;
 	sudo apt-get install vagrant -y; 
 }
-function vlc {
+function vlcs {
 	sudo apt install snapd -y;
 	sudo snap install vlc #-y;
 	vlc;
 	echo"SE HA INSTALADO VLC"
 }
-function winefish {
+function winefishs {
 	sudo apt-get update;
 	sudo apt-get install winefish -y;
 	winefish;
 }
-function wireshark {
+function wiresharks {
 	sudo add-apt-repository ppa:pi-rho/security -y;
 	sudo apt-get update ;
 	sudo apt-get install wireshark -y;
@@ -260,7 +261,7 @@ function wireshark {
 	echo "SE INSTALO WIRESHARK"
 	wireshark;
 }
-function wxmaxima {
+function wxmaximas {
 	sudo apt-get install maxima -y;
 	sudo apt-get install wx2.8-headers libwxgtk2.8-0 libwxgtk2.8-dev -y;
 	sudo apt-get install wxmaxima -y;
@@ -273,147 +274,148 @@ echo $((valor*valor));
  case $valor in
      1)
         echo "OPCIÓN 1"
-	blender;
+	blenders;
      ;;
      2)
         echo "OPCIÓN 2"
-	netbeans;
+	netbeanss;
      ;;
      3)
         echo "OPCIÓN 3"
-	java;
+	javas;
      ;;
      4)
         echo "OPCIÓN 4"
-	geany;
+	geanys;
      ;;
      5)
         echo "OPCIÓN 5"
-	gimp;
+	gimps;
      ;;
      6)
         echo "OPCIÓN 6"
-	dia;
+	dias;
      ;;
      7)
         echo "OPCIÓN 7"
-	wxmaxima;
+	wxmaximas;
      ;;
      8)
         echo "OPCIÓN 8"
-	octave;
+	octaves;
+
      ;;
      9)
         echo "OPCIÓN 9"
-	filezilla;
+	filezillas;
      ;;
     10)
         echo "OPCIÓN 10"
-	pcbdesigner;
+	pcbdesigners;
      ;;
     11)
         echo "OPCIÓN 11"
-	inkscape;
+	inkscapes;
      ;;
     12)
         echo "OPCIÓN 12"
-	nmap;
+	nmaps;
      ;;
     13)
         echo "OPCIÓN 13"
-	wireshark;
+	wiresharks;
      ;;
     14)
         echo "OPCIÓN 14"
-	kile;
+	kiles;
      ;;
     15)
         echo "OPCIÓN 15"
-	gretl;
+	gretls;
      ;;
     16)
         echo "OPCIÓN 16"
-	mono;
+	monos;
      ;;
     17)
         echo "OPCIÓN 17"
-	phpmyadmin;
+	phpmyadmins;
      ;;
     18)
         echo "OPCIÓN 18"
-	scilab;
+	scilabs;
      ;;
     19)
         echo "OPCIÓN 19"
-	gvsig;
+	gvsigs;
      ;;
     20)
         echo "OPCIÓN 20"
-	vlc;
+	vlcs;
      ;;
     21)
         echo "OPCIÓN 21"
-	psql;
+	psqls;
      ;;
     22)
         echo "OPCIÓN 22"
-	qgis;
+	qgiss;
      ;;
     23)
         echo "OPCIÓN 23"
-	ferret;
+	ferrets;
      ;;
     24)
         echo "OPCIÓN 24"
-	rstudio;
+	rstudios;
      ;;
     25)
         echo "OPCIÓN 25"
-	qtcreator;
+	qtcreators;
      ;;
     26)
         echo "OPCIÓN 26"
-	python;
+	pythons;
      ;;
     27)
         echo "OPCIÓN 27"
-	eagle;
+	eagles;
      ;;
     28)
         echo "OPCIÓN 28"
-	docker;
+	dockers;
      ;;
     29)
         echo "OPCIÓN 29"
-	virtualbox;
+	virtualboxs;
      ;;
     30)
         echo "OPCIÓN 30"
-	vagrant;
+	vagrants;
      ;;
     31)
         echo "OPCIÓN 31"
-	matlab;
+	matlabs;
      ;;
     32)
         echo "OPCIÓN 32"
-	eclipse;
+	eclipses;
      ;;
     33)
         echo "OPCIÓN 33"
-	teamviewer;
+	teamviewers;
      ;;
     34)
         echo "OPCIÓN 34"
-	winefish;
+	winefishs;
      ;;
     35)
         echo "OPCIÓN 35"
-	android;
+	androids;
      ;;
     36)
         echo "OPCIÓN 36"
-	atom;
+	atoms;
      ;;
     37)
         echo "OPCIÓN 37"
