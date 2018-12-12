@@ -51,4 +51,6 @@ cd ~
 git clone https://github.com/GLUD/distroCustomization.git
 cd distroCustomization
 
-
+# Proxy para Docker
+echo "~~> Proxy Docker"
+./docker.sh

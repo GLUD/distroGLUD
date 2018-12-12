@@ -10,12 +10,12 @@
 
 COUNTDOWN=5
 
-ZENITY_DIR="/usr/bin/zenity"
-NOTIFY_SEND_DIR="/usr/bin/notify-send"
+ZENITY_BIN="/usr/bin/zenity"
+NOTIFY_SEND_BIN="/usr/bin/notify-send"
 
 shutdown -h +$COUNTDOWN
 
-if [ -e $ZENITY_DIR ]; then
+if [ -e $ZENITY_BIN ]; then
 
     zenity --icon-name="dialog-error" \
         --question \
@@ -25,12 +25,11 @@ if [ -e $ZENITY_DIR ]; then
         --cancel-label="Cancelar" \
         2>/dev/null
 
-elif [ -e $NOTIFY_SEND_DIR ]; then
+elif [ -e $NOTIFY_SEND_BIN ]; then
     notify-send -u critical "¡Apagado!" \
         "¡Guarde su trabajo, el computador se apagará en $COUNTDOWN minutos!\nPara cancelar: <b>shutdown -c</b>" \
         2>/dev/null
 else
-    # No acepta tildes
     echo -e "Guarde su trabajo, el computador se apagara en $COUNTDOWN minutos\nEsta seguro de que quiere continuar?" \
         | xmessage -center -buttons Cancelar:1,Si:0 -file - \
         2>/dev/null
