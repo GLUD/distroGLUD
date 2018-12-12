@@ -18,8 +18,9 @@ cp zsh/zcompdump ~/.zcompdump
 
 # instalar oh-my-zsh y powerlevel9k
 sudo cp zsh/oh-my-zsh.tar.gz /usr/share/zsh/oh-my-zsh.tar.gz
-sudo tar -xzvf /usr/share/zsh/oh-my-zsh.tar.gz
-sudo rm /usr/share/zsh/oh-my-zsh.tar.gz
+cd /usr/share/zsh/
+sudo tar -xzvf oh-my-zsh.tar.gz
+sudo rm oh-my-zsh.tar.gz
 
 # ingresar contraseña
 # cerrar sesión y acceder nuevamente
@@ -38,3 +39,5 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+cd distroGLUD
