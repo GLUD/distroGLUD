@@ -48,8 +48,3 @@ gsettings set org.cinnamon panels-enabled "['1:0:top']"
 
 sudo mv /usr/share/cinnamon/theme/menu.svg /usr/share/cinnamon/theme/menu.svg_original
 sudo cp theme/img/menu.svg /usr/share/cinnamon/theme/
-
-# -> Cambiar imagen de login 
-sudo mv /usr/share/backgrounds/linuxmint/default_background.jpg /usr/share/backgrounds/linuxmint/default_background.jpg_original
-sudo cp theme/img/wallpaper.png /usr/share/backgrounds/linuxmint/default_background.jpg
-
