@@ -12,14 +12,14 @@ sudo apt-get install git
 # instalar zsh
 sudo apt-get install zsh
 chsh -s $(which zsh)
-mv zsh/zshrc ~/.zshrc
-mv zsh/zsh_history ~/.zsh_history
-mv zsh/zcompdump ~/.zcompdump
+cp zsh/zshrc ~/.zshrc
+cp zsh/zsh_history ~/.zsh_history
+cp zsh/zcompdump ~/.zcompdump
 
 # instalar oh-my-zsh y powerlevel9k
-mv zsh/oh-my-zsh.tar.gz ~/oh-my-zsh.tar.gz
-tar -xzvf ~/oh-my-zsh.tar.gz
-rm ~/oh-my-zsh.tar.gz
+sudo cp zsh/oh-my-zsh.tar.gz /usr/share/zsh/oh-my-zsh.tar.gz
+sudo tar -xzvf /usr/share/zsh/oh-my-zsh.tar.gz
+sudo rm /usr/share/zsh/oh-my-zsh.tar.gz
 
 # ingresar contraseña
 # cerrar sesión y acceder nuevamente
