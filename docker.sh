@@ -14,7 +14,7 @@ NO_PROXY="localhost,127.0.0.1,localaddress,.localdomain.com,10.0.0.0/8,192.168.0
 if [ $(id -u) -eq 0 ]; then
     if [ -e $DOCKER_BIN ]; then
         mkdir -p $DOCKER_SERVICE_DIR
-        echo -e "[Service]\nEnvironment=\"HTTP_PROXY=$PROXY\" \"HTTPS_PROXY=$PROXY\" \"NO_PROXY=$NO_PROXY\"" > "$DOCKER_DIR/proxy.conf"
+        echo -e "[Service]\nEnvironment=\"HTTP_PROXY=$PROXY\" \"HTTPS_PROXY=$PROXY\" \"NO_PROXY=$NO_PROXY\"" > "$DOCKER_SERVICE_DIR/proxy.conf"
         systemctl daemon-reload
         systemctl restart docker.service
     else
